@@ -1,7 +1,6 @@
 *{
-	padding: 0px;
-	margin: 0px;
-	font-family: Trebuchet MS;
+	margin: 0;
+	padding: 0;
 	color: #fff;
 }
 
@@ -14,23 +13,23 @@ body {
 	background-attachment: fixed;
 }
 
-header {
-	background: rgba(0, 0, 0, 0.4);
-	height: 12vh;
+header#main_version {
+	background: rgba(0, 0, 0, 0.5);
 	width: auto;
-
+	height: 12vh;
 }
-header div#logo_text{
+
+header#main_version div#logo_text{
 	float:left;
 	width: 45%;
 	height:100%;
-	box-sizing:border-box;
+	box-sizing: border-box;
 	display:flex;
 	align-items: center;
 	justify-content: center;
 }
 
-header div#logo_text p{
+header#main_version div#logo_text p{
 	text-align: center;
 	display: inline-block;
 	text-transform: uppercase;
@@ -38,11 +37,11 @@ header div#logo_text p{
 	font-size: 2.5vh; 
 }
 
-header div#logo_text span.blue_letter {
+header#main_version div#logo_text span.blue_letter {
 	color: #4ac9fe;
 }
 
-header div#nav_bar{
+header#main_version div#nav_bar{
 	float:left;
 	width: 55%;
 	height: 100%;
@@ -52,13 +51,13 @@ header div#nav_bar{
 	justify-content: center;
 }
 
-header nav ul#links{
+header#main_version nav ul#links{
 	list-style-type: none;
 	float: left;
 
 }
 
-header nav ul#links li{
+header#main_version nav ul#links li{
 	float: left;
 	margin: 2vh .1vw;
 	display:flex;
@@ -67,7 +66,7 @@ header nav ul#links li{
 
 }
 
-header nav ul#links li a{
+header#main_version nav ul#links li a{
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -76,7 +75,7 @@ header nav ul#links li a{
 	padding: .2vh 1vw;
 }
 
-header nav ul#links li a:hover{
+header#main_version nav ul#links li a:hover{
 	border-color: #4ac9fe;
 	color: #4ac9fe;
 	padding: .2vh 1vw;
