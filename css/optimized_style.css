@@ -1,0 +1,333 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Segoe UI Light';
+	text-decoration: none;
+	outline: none;
+	list-style: none;
+	border: none;
+}
+
+body {
+	width: 100%;
+	height: 4676px;
+}
+
+#header{
+	position: absolute;
+	top:0;
+	left:0;
+	background: rgba(0, 0, 0, .65);
+	height: 150px;
+	width: 100%;
+	line-height: 150px;
+}
+
+div.container{
+	width: 1170px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+/*Left+Right side content division*/
+div.left-side, div.right-side{
+	width:50%;
+	float: left;
+}
+
+/*Span color for text*/
+span.highlight{
+	color: rgb(75, 202, 255);
+}
+
+.white, li.menu-item a{
+	color: white;
+}
+
+.black{
+	color:black;
+}
+
+#header .left-side{
+	text-transform: uppercase;
+	font-size:30px;
+}
+
+li.menu-item{
+	float: left;
+	display: inline-block;
+	width: 20%;
+	text-transform: uppercase;
+}
+
+li.menu-item a{
+	font-size: 14px;
+	padding: 10px 20px;
+}
+
+li.menu-item a:hover{
+	color: rgb(75, 202, 255) !important;
+	border: 2px solid rgb(75, 202, 255);
+}
+
+section#main-section{
+	background-image: url(../img/bcg3.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 800px;
+}
+
+section#main-section p{
+	background-color: black;
+	opacity: .6;
+	display: inline-block;
+	color:white;
+	font-size: 40px;	
+}
+
+.main-section-text{
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 400px;
+}
+
+section#services{
+	background-color:#4bcaff;
+	height: 405px;
+}
+
+div.header{
+	display: block;
+	height: 115px;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 80px;
+}
+
+hr.white, hr.black{
+	width: 45px;
+	margin-bottom: 20px;
+	height: 2px;
+}
+
+hr.white{
+	background-color: white;
+}
+
+hr.black{
+	background-color: black;
+}
+
+div.services-item{
+	width: 25%;
+	float: left;
+	display: inline-block;
+}
+
+.services-item img{
+	height: 48px;
+	width: auto;
+}
+
+#services h3{
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.services-item-text{
+	font-size: 12px;
+}
+
+#portfolio{
+	background-color: white;
+	height: 844px;
+}
+
+#portfolio a{
+	color: black;
+	font-size: 14px;
+}
+
+.portfolio-pictures img{
+	width: 270px;
+	float:left;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+
+#just-section{
+	background-color: #515f67;
+	height: 473px;
+}
+
+#just-section .header{
+	height:auto;
+}
+
+#just-section p{
+	width: 77%;
+	font-size: 14px;
+	margin-bottom: 34px;
+	line-height: 1.71;
+}
+
+#just-section button{
+  width: 140px;
+  height: 45px;
+  font-weight: bold;
+  color: rgb(53, 63, 70);
+  background-color: #515f67;
+  border: 2px solid rgb(53, 63, 70);
+}
+
+#just-section video{
+	margin-top: 80px;
+	height:313px;
+}
+
+#twitter{
+	height:305px;
+	background-color: #4bcaff;
+}
+
+#twitter .right-side img, #testimonials .right-side img, #last-footer .right-side{
+	float: right;
+}
+
+#twitter div.container p{
+	font-size: 28px;
+	font-weight: 300;
+	color: rgba(255,255,255, 0.6);
+}
+
+#twitter b{
+	color: rgba(255,255,255, 1);
+}
+
+#whos-doe{
+	background-image: url(../img/whos-doe.png);
+	height: 505px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#whos-doe p{
+	text-transform: none;
+	font-size: 16px;
+	color: rgba(255,255,255,.95);
+	margin-bottom: 30px;
+	width: 95%;
+}
+
+.doe-images img{
+	margin-top: 15px;
+	height: 28px;
+	border: 2px solid white;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+#testimonials{
+	height: 360px;
+}
+
+#testimonials p {
+	text-transform: none;
+	font-size: 28px;
+	color: rgb(81, 95, 103);
+	margin-bottom: 20px;
+}
+
+#testimonials span.highlight{
+	font-size: 12px;
+	text-transform: none;
+}
+
+#contact{
+	background-image: url(../img/contact-bg.png);
+	height: 814px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#contact .right-side{
+	padding-top: 10px;
+}
+
+#contact label{
+	text-transform: uppercase;
+	display: block;
+	font-size: 14px; 
+	color: white;
+}
+
+#contact p{
+	text-transform: none;
+	font-size: 14px;
+	line-height: 1.71;
+	margin-bottom: 39px;
+	color: white;
+}
+
+#contact input.input-white{
+	width: 95%;
+	height: 60px;
+	border: solid 2px rgb(255, 255, 255);
+	background: transparent;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+#contact input.message{
+	width: 100%;
+	height: 220px;
+	border: solid 2px rgb(255, 255, 255);
+	background: transparent;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	box-sizing: border-box;
+}
+
+#contact input.submit-button{
+	width: 35%;
+	height: 60px;
+	background-color: #4bcaff;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+#last-footer{
+	background-color: #353f47;
+	height: 120px;
+}
+
+/*#last-footer li.menu-item{
+	float: left;
+	display: inline-block;
+	list-style: none;
+	margin-top: 60px;
+	margin-right: 25px;
+	width: auto;
+
+}*/
+
+#last-footer .menu-item a{
+	font-size: 15px;
+	color: #515f67;
+}
+
+#last-footer hr{
+	width: 2px;
+	height: 17px;
+	background-color: #515f67;
+	float: left;
+	display: inline-block;
+	margin-right: 25px;
+	border: none;
+	margin-top: 60px;
+}
+
+
+
