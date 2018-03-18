@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework for lesson2</title>
+</head>
+<body>
+	<h1>Registration form</h1>
+
+	<form action="">
+		
+<div>
+	<label for="email">Input E-mail here: </label>
+	<input type="email" name="email" placeholder="E-mail address" required>
+	*Required field
+</div>
+<div>
+	
+			<label for="password">Input password here: </label>
+			<input type="password" name="password" placeholder="Password" required>
+			*Required field
+</div>
+<div>
+		<label for="name">Your name is: </label>
+		<input type="text" name="name" placeholder="Example: Denis">
+</div>
+<div>
+	
+			<label for="surname">Your surname is: </label>
+			<input type="text" name="surname" placeholder="Example: Musevych">
+</div>
+
+<div>
+		<label for="patronymic">Patronymic: </label>
+		<input type="text" name="patronymic" placeholder="Example: Viktorovych">
+</div>
+<div>
+	<label for="birthdate">Birth date: </label>
+	<input type="date" name="birthdate">
+</div>
+<div>
+	<label for="radio1">Select your gender: </label>
+	<input type="radio" name="radio_group1" id="Male" value="1">
+	<label for="Male">Male</label>
+	<input type="radio" name="radio_group1" id="Female" value="1">
+	<label for="Female">Female</label>
+</div>
+<div>
+	<label for="checkbox">Tick your hobbies: </label>
+	<input type="checkbox" name="interests" id="interests_option1"><label for="interests_option1">Skating</label>
+	<input type="checkbox" name="interests" id="interests_option2"><label for="interests_option2">Cycling</label>
+	<input type="checkbox" name="interests" id="interests_option3"><label for="interests_option3">Riding</label>
+	<input type="checkbox" name="interests" id="interests_option4"><label for="interests_option4">Skiing</label>
+	<input type="checkbox" name="interests" id="interests_option5"><label for="interests_option5">Jogging</label>
+</div>
+
+<div>
+	<button type="button" >
+		<a href="#big_table">SCROLL TO TABLE ON THIS PAGE</a>
+	</button>
+	<a href="pages/tables.html" target="_blank"><button type="button">GO TO ANOTHER PAGE(TABLES.HTML)</button></a>
+</div>
+</form>
+<p>A small commentary: <br>
+The main idea of this homework is to remind ourselves a way to use forms on the webpages. <br>
+This is a basic way to interact with the user. This form requires at least two fields to be filled out: E-mail and Password. Others aren't necessary, so user may ignore them. <br>
+This task improved knowledge about labels, as the basic lesson had nothing to say about adding labels with checkbox and radio type inputs. Correct usage requires us to use ID attribute of the &ltinput&gt tag, then refer to it with "for" attribute of a &ltlabel&gt tag. In this case &ltlabel&gt area becomes responsive to clicks, and also check/unchecks it's input. <br>
+Next trouble was about using button to redirect user to another page.  <br>
+First of all I've tried to it with wrapping <b>&lta&gt</b> tag into <b>&ltbutton&gt</b> tag. But it resulted in printing a link looking text on the button. Few tries resulted into wrapping them vice versa. Think this is the propper way to use a button as a link. <br>
+Question remains, if I were to offer the user to go to a particular section, I'd added an ID to a div/section/w.e., but this results in adding a #id_value to the URL. Does it harm to SEO and am I still at the same page after URL modification?
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<style>
+#line_block1 { 
+        width:50%; 
+        float:left;
+        padding-bottom: 250px;
+        }
+        #line_block2 { 
+        width:50%; 
+        float:left;
+        padding-bottom: 250px;
+        }
+</style>
+
+<div id="line_block1">
+
+	<video  src="video/Владимир Высоцкий - Я не люблю.mp4" controls width="100%" height="800"></video>
+	<details>
+		<summary>Expand text</summary>
+			<marquee behavior="scroll" direction="up" scrollamount="1" height="200px" >
+					Я не люблю фатального исхода,<br>
+					От жизни никогда не устаю.<br>
+					Я не люблю любое время года,<br>
+					В которое болею или пью.<br>
+					Я не люблю холодного цинизма,<br>
+					В восторженность не верю, и ещё -<br>
+					Когда чужой мои читает письма,<br>
+					Заглядывая мне через плечо.<br><br>
+
+					Я не люблю, когда наполовину<br>
+					Или когда прервали разговор.<br>
+					Я не люблю, когда стреляют в спину,<br>
+					Я также против выстрелов в упор.<br>
+					Я ненавижу сплетни в виде версий,<br>
+					Червей сомненья, почестей иглу.<br>
+					Или когда всё время против шерсти,<br>
+					Или когда железом по стеклу.<br><br>
+
+					Я не люблю уверенности сытой,<br>
+					Уж лучше пусть откажут тормоза.<br>
+					Досадно мне, коль слово "честь" забыто<br>
+					И коль в чести наветы за глаза.<br>
+					Когда я вижу сломанные крылья,<br>
+					Нет жалости во мне, и неспроста, -<br>
+					Я не люблю насилья и бессилья,<br>
+					Вот только жаль распятого Христа.<br><br>
+
+					Я не люблю себя, когда я трушу,<br>
+					Досадно мне, когда невинных бьют.<br>
+					Я не люблю, когда мне лезут в душу,<br>
+					Тем более, когда в неё плюют.<br>
+					Я не люблю манежи и арены,<br>
+					На них мильон меняют по рублю,<br>
+					Пусть впереди большие перемены,<br>
+					Я это никогда не полюблю.<br>
+			</marquee>
+	</details>
+</div>
+
+<div id="line_block2">
+	<video src="video/Zayn feat. Sia - Dusk till Dawn.mp4" controls width="100%" height="800"></video>
+	<details>
+			<summary>Expand text</summary>
+				<marquee behavior="scroll" direction="up" scrollamount="1" height="200px" >
+					Not tryna be indie <br>
+					Not tryna be cool<br>
+					Just tryna be in this<br>
+					Tell me, are you too?<br>
+					Can you feel where the wind is?<br>
+					Can you feel it through<br>
+					All of the windows<br>
+					Inside this room?<br><br>
+
+					'Cause I wanna touch you baby<br>
+					And I wanna feel you too<br>
+					I wanna see the sunrise<br>
+					On your sins just me and you<br>
+					Light it up, on the run<br>
+					Let's make love tonight<br>
+					Make it up, fall in love, try<br>
+			</marquee>
+		</details>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div id="big_table">
+<table width="100%" cellpadding="5" cellspacing="0" border="1" >
+	<tbody>
+		<tr>
+			<td colspan="2" rowspan="2" height="60">
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ARxV5vsYQ6o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</td>
+			<td>Willing to</td>
+			<td>fill</td>
+			<td>the table</td>
+			<td rowspan="5" colspan="2" height="100%" width="200">
+				<svg height="200" width="200">
+					<rect x="0" y="0" width="200" height="200" fill="#029ef9" stroke="" stroke-width=""/>
+
+
+				<!--  Polylines left -->
+					<polyline points="61,10 20,50 89,21" fill="#00586e" stroke="white" stroke-width="4"/>
+					<polyline points="20,50 89,21 90,40 40,60 20,50" fill="#005f88" stroke="white" stroke-width="4"/>
+					<polyline points="20,50 90,80 90,40 18,70" fill="#007db4" stroke="white" stroke-width="4"/>
+					<polyline points="18,70 40,60 87,80 10,120" fill="#009bd9" stroke="white" stroke-width="4"/>
+					<line x1="18" y1="70" x2="47" y2="106" stroke="white" stroke-width="4"/>
+					<polyline points="89,160 41,103 89,80" fill="#00c1e3" stroke="white" stroke-width="4"/>
+					<polyline points="18,70 42,102 10,119" fill="#00aed7" stroke="white" stroke-width="4"/>
+					<polyline points="43,103 88,160 12,120" fill="#55d9ea" stroke="white" stroke-width="4"/>
+					<polyline points="10,120 87,160, 41,170" fill="#91eaf4" stroke="white" stroke-width="4"/>
+
+
+				<!-- Polylines right -->
+					<polyline points="109,20 177,50 110,80" fill="transparent" stroke="white" stroke-width="4"/>
+					<polyline points="110,80 188,120 110,160" fill="transparent" stroke="white" stroke-width="4"/>
+					<polyline points="110,160 181,70 110,40" fill="transparent" stroke="white" stroke-width="4"/>
+
+					<!-- Osnova left -->
+					<polyline points="61,10 20,50 10,120 40,171 90,160 90,20 60,10" fill="transparent" stroke="white" stroke-width="4"/>
+
+
+					<!-- Osnova right -->
+					<polyline points="139,9 180,50 190,120 160,170 110,160 110,20 140,9" fill="transparent" stroke="white" stroke-width="4"/>
+				</svg>
+			</td>
+		</tr>
+		<tr>
+			<td>with</td>
+			<td>some</td>
+			<td>text</td>
+		</tr>
+		<tr>
+			<td rowspan="2"><b>Bold text <br> here</b></td>
+			<td>Placeholder</td>
+			<td colspan="2" rowspan="2"><video width="100%" height="60" src="video/videoplayback.mp4" controls></video></td>
+			<td>Lorem</td>
+		</tr>
+		<tr>
+			<td>usage</td>
+			<td>Ipsum</td>
+		</tr>
+		<tr>
+			<td>confirmed</td>
+			<td>right</td>
+			<td>after</td>
+			<td>texts</td>
+			<td>ends</td>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="5"><audio src="audio/1.mp3" controls autoplay="true"></audio></td>
+			<td><i>dolor</i></td>
+			<td><i>sit</i></td>
+			<td><i>amet,</i></td>
+			<td><i>consectetur</i></td>
+		</tr>
+		<tr>
+			<td>adipisicing</td>
+			<td>elit.</td>
+			<td>Animi,</td>
+			<td>odio.</td>
+		</tr>
+		<tr>
+			<td rowspan="3">maiores</td>
+			<td rowspan="3">possimus</td>
+			<td rowspan="3">architecto.</td>
+			<td rowspan="3" width="200">
+				<table width="100%" cellpadding="5" cellspacing="0" border="1" >
+					<tbody>
+						<tr>
+							<td><a href="#line_block1"><img src="img/1.png" width=100% alt="alt_for_pic_1"></a></td>
+							<td><a href="#line_block1"><img src="img/1.png" width=100% alt="alt_for_pic_1"></a></td>
+							<td><a href="#line_block1"><img src="img/1.png" width=100% alt="alt_for_pic_1"></a></td>
+						</tr>
+						<tr>
+							<td><img src="img/1.png" width=100% alt="alt_for_pic_1"></td>
+							<td><img src="img/1.png" width=100% alt="alt_for_pic_1"></td>
+							<td><img src="img/1.png" width=100% alt="alt_for_pic_1"></td>
+						</tr>
+						<tr>
+							<td><img src="img/1.png" width=100% alt="alt_for_pic_1"></td>
+							<td><img src="img/1.png" width=100% alt="alt_for_pic_1"></td>
+							<td><img src="img/1.png" width=100% alt="alt_for_pic_1"></td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p>Needlesly to say, that svg task took about 3 hours to be completed. Learned that order of elements matters as they begin to cover each other and the right way to do that brings a better result (like covering elements inside left part of the brain with a transparent fill and white border makes it look a lot better) <br>
+The next issue was unawareness of which element is more important in this particular table. To make all elemnts look nice, we need to set their size, but when scalling page, they begin to move, that's why we need to set some sizes in absolut measurement, so we could make some elements not to change their size despite any scaling.</p>
+</body>
+</html>
