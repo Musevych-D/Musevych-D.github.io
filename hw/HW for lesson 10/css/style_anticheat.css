@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	background-color: white;
+	width: 100vw;
+}
+
+div > div{
+	width: 48%;
+	float: left;
+}
+
+div > div:last-child{
+	margin-left: 20px;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+p{
+	margin-bottom: 10px;
+}
+
+div > section{
+	height: 400px;
+	margin: 0 auto;
+	background-color: black;
+
+	margin-bottom: 50px;
+	padding: 12% 0;
+	box-sizing: border-box;
+}
+
+div > div > section > div{
+	height: 100%;
+	width: 23%;
+	margin-left: 1.5%;
+		
+	float: left;
+	background-color: red;
+	box-sizing: border-box;
+}
+
+div > div:first-child > section:nth-child(2):hover div:nth-child(odd){
+	border: 2px solid white;
+}
+
+div > div:first-child > section:nth-child(2):hover div:nth-child(even){
+	background-color: yellow;
+}
+
+
+div > div:first-child > section:nth-child(3) > div:first-child:hover + div{
+	background-color: blue;
+	border: 5px solid yellow;
+}
+
+div > div:first-child > section:nth-child(4) > div:nth-child(2):hover ~ div{
+	background-color: blue;
+	border: 5px solid yellow;
+}
+
+div > div:nth-child(2) section{
+	position: relative;
+	padding: 0px;
+}
+
+div > div:nth-child(2) section div{
+	position: absolute;
+	height: 50%;
+	top: 25%;
+	margin: 0px;
+	transition: all .5s;
+}
+
+div > div:nth-child(2) section div:first-child{
+	left: 1.5%;
+	background-color: orange;
+}
+
+div > div:nth-child(2) section div:nth-child(2){
+	left: 26%;
+	background-color: violet;
+}
+
+div > div:nth-child(2) section div:nth-child(3){
+	left: 50.5%;
+	background-color: purple;
+}
+
+div > div:nth-child(2) section div:nth-child(4){
+	left: 75%;
+	background-color: lightgreen;
+}
+
+div > div:nth-child(2) section:nth-child(2):hover div:nth-child(1){
+	left: 50.5%;
+}
+
+div > div:nth-child(2) section:nth-child(2):hover div:nth-child(3){
+	left: 1.5%;
+}
+
+div > div:nth-child(2) section:nth-child(3):hover div:nth-child(2){
+	left: 75%;
+}
+
+div > div:nth-child(2) section:nth-child(3):hover div:nth-child(4){
+	left: 26%;
+}
+
+div > div:nth-child(2) section:nth-child(4) > div:nth-child(1):hover + div:nth-child(2){
+	left: 50.5%;
+}
+
+div > div:nth-child(2) section:nth-child(4) > div:nth-child(1):hover ~ div:nth-child(3){
+	left: 26%;
+}
