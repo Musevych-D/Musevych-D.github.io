@@ -33,6 +33,15 @@
 	section#works div.fw-container div.img-wrapper{
 		height: 220px;
 	}
+
+	.img-wrapper p{
+		position: absolute;
+		top: 88px;
+		left: 63px;
+		display: none;
+		line-height: 1.4;
+		font-size: 12px;
+}
 }
 @media(max-width: 768px){
 	div.container{
