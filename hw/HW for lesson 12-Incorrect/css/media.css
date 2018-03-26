@@ -36,8 +36,8 @@
 
 	.img-wrapper p{
 		position: absolute;
-		top: 88px;
-		left: 63px;
+		top: 45%;
+		left: 33%;
 		display: none;
 		line-height: 1.4;
 		font-size: 12px;
