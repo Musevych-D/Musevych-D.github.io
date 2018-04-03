@@ -1,0 +1,64 @@
+@media screen and (max-width: 1440px) {
+  div.container {
+    width: 1170px; }
+  section#features {
+    height: 690px; }
+    section#features div.container div.feuturesWrap div.feature-item h2 {
+      font-size: 14px; }
+    section#features div.container div.feuturesWrap div.feature-item p {
+      font-size: 13px; }
+  section#works {
+    height: 700px; }
+    section#works div.fw-container div.img-wrapper {
+      height: 350px; }
+      section#works div.fw-container div.img-wrapper p, section#works div.fw-container div.img-wrapper h2 {
+        font-size: 14px; } }
+
+@media screen and (max-width: 1170px) {
+  div.container {
+    width: 992px; }
+  section#works {
+    height: 520px; }
+    section#works div.fw-container div.img-wrapper {
+      height: 250px; }
+  section#features {
+    height: 690px; }
+    section#features div.container div.feuturesWrap div.feature-item h2 {
+      font-size: 14px; }
+    section#features div.container div.feuturesWrap div.feature-item p {
+      font-size: 13px; }
+  section#works {
+    height: 700px; }
+    section#works div.fw-container div.img-wrapper {
+      height: 350px; }
+      section#works div.fw-container div.img-wrapper p, section#works div.fw-container div.img-wrapper h2 {
+        font-size: 14px; } }
+
+@media screen and (max-width: 992px) {
+  div.container {
+    width: 720px; }
+  section#masthead {
+    height: 600px; }
+  nav.header div.half-side ul li a {
+    font-size: 12px; }
+  div.content-wrap {
+    margin: 75px auto; }
+  section#masthead div.content-wrap h1 {
+    font-size: 40px; }
+  section#masthead div.content-wrap div.masthead-text-wrap p {
+    font-size: 18px; }
+  section#works {
+    height: 500px; }
+  section#works div.fw-container div.img-wrapper {
+    height: 220px; }
+  .img-wrapper p {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    display: none;
+    line-height: 1.4;
+    font-size: 12p; } }
+
+@media screen and (max-width: 768px) {
+  div.container {
+    width: 320px; } }

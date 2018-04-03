@@ -1,0 +1,7 @@
+@media screen and (max-width: 1170px) {
+  div.container {
+    width: 992px; }
+  section#works {
+    height: 520px; }
+    section#works div.fw-container div.img-wrapper {
+      height: 250px; } }
