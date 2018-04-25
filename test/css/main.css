@@ -1,0 +1,196 @@
+@import url(../css/libs.min.css);
+h1 {
+  text-align: center;
+  margin-top: 20px; }
+
+section#game-categories {
+  margin-top: 75px; }
+  section#game-categories div.game-item-wrapper {
+    background-color: orange;
+    height: 150px;
+    width: 100%; }
+    section#game-categories div.game-item-wrapper h1 {
+      font-size: 20px; }
+    section#game-categories div.game-item-wrapper div.game-item {
+      margin-top: 10px;
+      height: 60px;
+      padding-top: 10px;
+      color: white;
+      text-align: center;
+      background-color: red; }
+
+section#content {
+  margin-top: 30px; }
+  section#content h2 {
+    text-align: center; }
+
+div#most-viewed {
+  height: 375px;
+  margin-bottom: 50px; }
+  div#most-viewed div.block {
+    margin-top: 100px;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    background-color: red; }
+  div#most-viewed .row .col-12 {
+    padding-top: 15px; }
+    div#most-viewed .row .col-12 a {
+      margin-left: 180px; }
+
+div#pros-of-the-website {
+  height: 375px; }
+  div#pros-of-the-website div.row div.col-4 div.block-for-items {
+    text-align: center;
+    font-size: 14px; }
+    div#pros-of-the-website div.row div.col-4 div.block-for-items img {
+      height: 100px;
+      width: 100px; }
+
+div#tolkoviy {
+  height: 800px; }
+  div#tolkoviy div.other-website-description {
+    margin-bottom: 25px; }
+    div#tolkoviy div.other-website-description div.other-website-description-content img {
+      height: 50px;
+      width: 150px; }
+
+div.last-article-item,
+div.game-item-wrapper,
+div#pros-of-the-website,
+div#most-viewed,
+div#tolkoviy,
+div.game-item {
+  border: 3px black solid;
+  -webkit-border-radius: 10px;
+          border-radius: 10px; }
+
+section#advertisment {
+  max-height: 200px;
+  margin: 30px 0px; }
+  section#advertisment .row {
+    border: 3px black solid;
+    -webkit-border-radius: 10px;
+            border-radius: 10px; }
+    section#advertisment .row .col-12 {
+      padding-left: 0px;
+      padding-right: 0px; }
+  section#advertisment div.ad-item {
+    background-image: url(../img/111.png);
+    -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+    height: 200px;
+    width: 100%; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+section#last-articles div.last-article-item {
+  overflow: hidden;
+  height: 500px; }
+  section#last-articles div.last-article-item img {
+    width: 100%;
+    height: 35%; }
+
+div.container div.row div.col-8 img {
+  height: 550px;
+  width: 100%; }
+
+div.container div.row div.col-4 ul.nav.nav-tabs {
+  border: 1px solid black;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 350px;
+  width: 100%; }
+  div.container div.row div.col-4 ul.nav.nav-tabs li {
+    width: 40px;
+    margin-right: 5px; }
+
+div.container div.row div.col-4 div.item-description-tab {
+  border: 1px solid black; }
+
+div.container div.row div.col-4 div.tab-content {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  width: 100%; }
+  div.container div.row div.col-4 div.tab-content div.tab-pane {
+    text-align: center; }
+    div.container div.row div.col-4 div.tab-content div.tab-pane h3 {
+      font-size: 15px;
+      margin-bottom: 10px; }
+    div.container div.row div.col-4 div.tab-content div.tab-pane div.site-offer {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      border: 1px solid black;
+      width: 90%; }
+      div.container div.row div.col-4 div.tab-content div.tab-pane div.site-offer img {
+        height: 50px;
+        width: 100px; }
+      div.container div.row div.col-4 div.tab-content div.tab-pane div.site-offer p.seller-name {
+        font-size: 12px; }
+      div.container div.row div.col-4 div.tab-content div.tab-pane div.site-offer p.seller-price {
+        font-size: 12px;
+        color: green; }
+
+div.container .row .col-12 h4 {
+  margin-top: 100px;
+  text-align: center; }
+
+div.container .row .col-12 p {
+  font-size: 14px; }
+
+.col-1-auto {
+  margin-right: 25px; }
+
+section.items-layout {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  section.items-layout .row .col-10 p {
+    display: inline-block; }
+
+div.item-container {
+  margin: 30px auto;
+  border: 1px solid black; }
+  div.item-container div.item-picture img {
+    width: 100%;
+    height: 100%; }
+  div.item-container div.item-price-showcase span[class^="item"] {
+    float: right;
+    color: green; }
+  div.item-container div.item-button-inner a {
+    width: 100%;
+    align-text: center; }
+
+div.dropdown.show {
+  display: inline-block; }
+  div.dropdown.show a.btn {
+    display: inline-block; }
+
+footer#footir {
+  background-color: black;
+  height: 250px;
+  color: white; }
+  footer#footir .container-fluid h3 {
+    text-align: center; }
+  footer#footir .container-fluid .row .col-3 img {
+    width: 120px;
+    height: 120px; }
