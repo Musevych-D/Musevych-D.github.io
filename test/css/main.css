@@ -27,12 +27,6 @@ section#content {
 div#most-viewed {
   height: 375px;
   margin-bottom: 50px; }
-  div#most-viewed div.block {
-    margin-top: 100px;
-    width: 100px;
-    height: 150px;
-    text-align: center;
-    background-color: red; }
   div#most-viewed .row .col-12 {
     padding-top: 15px; }
     div#most-viewed .row .col-12 a {
@@ -65,22 +59,18 @@ div.game-item {
   -webkit-border-radius: 10px;
           border-radius: 10px; }
 
-section#advertisment {
-  max-height: 200px;
+section#latestAddedItems {
+  height: auto;
   margin: 30px 0px; }
-  section#advertisment .row {
+  section#latestAddedItems .container h3 {
+    text-align: center; }
+  section#latestAddedItems .row {
     border: 3px black solid;
     -webkit-border-radius: 10px;
             border-radius: 10px; }
-    section#advertisment .row .col-12 {
+    section#latestAddedItems .row .col-12 {
       padding-left: 0px;
       padding-right: 0px; }
-  section#advertisment div.ad-item {
-    background-image: url(../img/111.png);
-    -webkit-background-size: 100% 100%;
-            background-size: 100% 100%;
-    height: 200px;
-    width: 100%; }
 
 img {
   width: 100%;
