@@ -1,0 +1,30 @@
+/* @font-face{
+	font-family: "Alegreya";
+	src: url ("../fonts/Alegreya/Alegreya.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+} */
+
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+div.clockWrapper{
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+}
+
+div.clockWrapper div#clock{
+	font-size: 450px;
+	text-align: center;
+}
+
+div.clockWrapper button{
+	width: 350px;
+	height: 90px;
+	margin: 0px 30px;
+	font-size: 50px;
+}
