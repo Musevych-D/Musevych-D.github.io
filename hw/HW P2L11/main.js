@@ -123,7 +123,7 @@ var getIntentions;
 function getIdToWorkWith(){
 	idListArray = updateIdList().join('\n');
 	const input = prompt('There are such TAGS with ID\'s on the page right now:\n' + idListArray + '\n\nWhich one You would like to work with?', '');
-	if(input == 'div' || input == 'a'|| input == 'ul' ){
+	if(~!idListArray.indexOf(input)){
 		useThisElement = document.getElementById(input);
 		if(input == 'ul'){
 			const inputLi = prompt('Which li are You interested in? \nIndex starts from 1, currently there are ' + document.getElementById('ul').children.length + ' li\'s inside ul#ul', '');
