@@ -20,7 +20,7 @@
 
 
 
-var idList = [];
+
 
 
 //1. Функции
@@ -53,6 +53,15 @@ function getElementNodesArray(){
 	};
 	return arr;
 };
+
+function updateIdList(){
+	var idList = [];
+	var temp = document.body.getElementsByTagName('*');
+	for(var i = 0; i < temp.length; i ++){
+		if(temp[i].id != '') {idList.push(temp[i].tagName + ': ' + temp[i].id)}
+	};
+	return idList;
+}
 
 function getCommentNodesArray(){
 	var arr = [];
@@ -95,7 +104,7 @@ document.getElementById('div').appendChild(ul);
 
 button.onclick = culmination;
 
-fillUl(5);
+fillUl(10);
 
 
 
@@ -112,22 +121,22 @@ var useThisElement;
 var getIntentions;
 
 function getIdToWorkWith(){
-	idList = idList.toString()
-	const input = prompt('There are such ID\'s on the page right now: ' + idList + '\n Which one You would like to work with?', '');
+	idListArray = updateIdList().join('\n');
+	const input = prompt('There are such TAGS with ID\'s on the page right now:\n' + idListArray + '\n\nWhich one You would like to work with?', '');
 	if(input == 'div' || input == 'a'|| input == 'ul' ){
+		useThisElement = document.getElementById(input);
 		if(input == 'ul'){
 			const inputLi = prompt('Which li are You interested in? \nIndex starts from 1, currently there are ' + document.getElementById('ul').children.length + ' li\'s inside ul#ul', '');
 			if(inputLi >= 1 && inputLi < document.getElementById('ul').children.length + 1){
-				return document.getElementById('ul').children[inputLi] - 1;
+				useThisElement = document.getElementById('ul').children[inputLi - 1];
 			}else{
 				alert('There is no such li tag index in ul#ul element children!');
 			}
 		}
-		useThisElement = document.getElementById(input);
-		return useThisElement
 	}else{
 		alert('There is no such ID on the page right now!');
 	}
+	return useThisElement
 }
 
 var getIntentionsFunc = function(){
