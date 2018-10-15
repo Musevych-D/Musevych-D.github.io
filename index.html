@@ -2,58 +2,123 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>BLUEASY</title>
-	<link rel="stylesheet" href="css/style.css">
+	<title>IOtech</title>
+	<link rel="stylesheet" href="dev/style/styles.css">
 </head>
 <body>
-		<header id="main_version">
-			<div id="logo_text">
-				<p><strong>blu<span class="blue_letter">e</span>asy</strong></p>
-			</div>
-			<div id="nav_bar">
-				<nav>
-					<ul id="links">
-						<li><a href="#logo_text">home</a></li>
-						<li><a href="pages/alt_styles_version.html" target="_blank">alt version</a></li>
-						<li><a href="#logo_text">features</a></li>
-						<li><a href="#logo_text">portfolio</a></li>
-						<li><a href="hw/hw.html">HOMEWORKS</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+	
 
-	<section class="main">
-			<p>"i'm looking for the unexpected</p>
-			<p>i'm looking for things i've never seen before"</p>
-	</section>
-	<section class="secondary">
-		<div class="footer-header">
-			<h2><span>ser</span>vices</h2>
+	<div class="mainPage">
+		<div class="leftBlock h-100scr fLeft">
+
+			<div class="flex h-100 jc-center ai-center">
+				<div class="contentWrap">
+					<div class="logoWrap">
+						<img src="dev/assets/img/logo.png" alt="">
+						<span class="fc-tech ff-thin">Technologies</span>
+					</div>
+					
+					<div class="helpWrap">
+						<p class="fc-light ff-thin">Get how-to help and instructions or specific features in</p>
+						<div class="helpButtonsWrap">
+							<!-- Should lead to another page, thus a tag is used -->
+							<a href="##" class="fc-light btn">help center</a>
+							<span class="fc-light ff-thin">or</span>
+							<a href="##" class="fc-light btn">support</a>
+						</div>
+					</div>
+				</div>
+			</div>
+				
 		</div>
-		<div class="description">
-			<div class="item-layout">
-				<img src="img/coffee.svg" alt="coffee">
-				<h3>coffee</h3>
-				<p>Apple pie icing sweet. Brownie jelly-o applicake <br>applicake sweet roll liquorice bear claw. Jujubes<br> carrot cake cotton candy sweet tart brownie.<br> Tiramisu applicake jujubes.</p>
-			</div>
-			<div class="item-layout">
-				<img src="img/camera.svg" alt="camera">
-				<h3>instant</h3>	
-				<p>Apple pie icing sweet. Brownie jelly-o applicake <br>applicake sweet roll liquorice bear claw. Jujubes<br> carrot cake cotton candy sweet tart brownie.<br> Tiramisu applicake jujubes.</p>
-			</div>
-			<div class="item-layout">
-				<img src="img/arcade-machine.svg" alt="arcade-machine">
-				<h3>serious</h3>
-				<p>Apple pie icing sweet. Brownie jelly-o applicake <br>applicake sweet roll liquorice bear claw. Jujubes<br> carrot cake cotton candy sweet tart brownie.<br> Tiramisu applicake jujubes.</p>
-			</div>
-			<div class="item-layout">
-				<img src="img/frame.svg" alt="frame">
-				<h3>frame</h3>
-				<p>Apple pie icing sweet. Brownie jelly-o applicake <br>applicake sweet roll liquorice bear claw. Jujubes<br> carrot cake cotton candy sweet tart brownie.<br> Tiramisu applicake jujubes.</p>
+
+
+		<div class="rightBlock h-100scr fRight">
+			<div class="flex h-100 jc-center ai-center">
+				<div id="replace" class="contentWrap h-100">
+				
+				</div>
 			</div>
 		</div>
-		<a class="back" href="#logo_text">Back to top</a>
-	</section>
+
+	</div>
+
+
+<template id="reset">
+	<div class="resetPasswordState">
+		<div class="backPW">
+			<button id="backPW">
+				<span class="fc-dark">🡠</span>
+			</button>
+		</div>
+		<p class="fs-title fc-light">Forgot password?</p>
+		<input type="text" class="w-100" placeholder="Enter your email">
+		<input type="submit" value="send me instructions" class="fc-light fs-button-bigger w-100">
+	</div>
+</template>
+
+<template id="access">
+	<div class="accessGrantedState">
+		<div class="welcome">
+			<span class="fs-title ff-thin fc-light">Hi, </span>
+			<span id="name" class="fc-light fs-title"></span>
+			<p class="fc-dark fs-text-smaller ff-thin">Please choose your project.</p>
+		</div>
+		<div class="projectList">
+			<ul>
+				<li class="fc-dark ff-medium">Project 1</li>
+				<li class="fc-dark ff-medium">Project 2</li>
+				<li class="fc-dark ff-medium">Project 3</li>
+				<li class="fc-dark ff-medium">Project 4</li>
+				<li class="fc-dark ff-medium">Project 5</li>
+				<li class="fc-dark ff-medium">Project 6</li>
+				<li class="fc-dark ff-medium">Project 7</li>
+				<li class="fc-dark ff-medium">Project 8</li>
+				<li class="fc-dark ff-medium">Project 9</li>
+				<li class="fc-dark ff-medium">Project 10</li>
+				<li class="fc-dark ff-medium">Project 11</li>
+				<li class="fc-dark ff-medium">Project 12</li>
+				<li class="fc-dark ff-medium">Project 13</li>
+				<li class="fc-dark ff-medium">Project 14</li>
+				<li class="fc-dark ff-medium">Project 15</li>
+			</ul>
+		</div>
+	</div>
+</template>
+
+<template id="login">
+	<div class="loginState">
+		<div class="loader w-100 h-100 dNone">
+			<div class="spinner"></div>
+		</div>
+		<div class="welcome">
+			<p class="fs-title fc-light">Welcome back</p>
+			<p class="fc-dark fs-text-smaller ff-thin">Sign in to continue to IO Technologies.</p>
+		</div>
+		
+		<div class="formWrap">
+			<form action="">
+				<div class="inputBlock">
+					<!-- value="1@iotechnologies.com" -->
+					<input type="email" name="email" class="w-100" placeholder="Your email"  autocomplete="off">
+					<div class="bubble fc-dark dNone">Oops! you entered an invalid email</div>
+				</div>
+		
+				<div class="inputBlock">
+					<input type="password" name="pw" class="w-100" placeholder="Password" autocomplete="off">
+				</div>
+				
+				<!-- should have used FA lib -->
+				<input type="submit" value="log in 🡢" class="fc-light fs-button-bigger w-100">
+			</form>
+		</div>
+		
+		<div class="forgotPW">
+			<span class="fc-dark">Forgot your password?</span>
+			<a id="resetPW" href="##">Reset</a>
+		</div>
+	</div>
+</template>
+	<script src="dev/js/main.js"></script>
 </body>
 </html>
