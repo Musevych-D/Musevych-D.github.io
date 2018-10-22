@@ -297,7 +297,7 @@ let IconService = class IconService {
     buildAvatarList() {
         const avatarList = [];
         for (let i = 0; i < this.avatarListSize; i++) {
-            const imageSrc = `/src/assets/img/${i}.jpg`;
+            const imageSrc = `/assets/img/${i}.jpg`;
             avatarList.push(new Avatar(i, imageSrc));
         }
         return avatarList;
