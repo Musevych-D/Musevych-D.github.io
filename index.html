@@ -1,124 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>IOtech</title>
-	<link rel="stylesheet" href="dev/style/styles.css">
+  <meta charset="utf-8">
+  <title>Spribe</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-	
-
-	<div class="mainPage">
-		<div class="leftBlock h-100scr fLeft">
-
-			<div class="flex h-100 jc-center ai-center">
-				<div class="contentWrap">
-					<div class="logoWrap">
-						<img src="dev/assets/img/logo.png" alt="">
-						<span class="fc-tech ff-thin">Technologies</span>
-					</div>
-					
-					<div class="helpWrap">
-						<p class="fc-light ff-thin">Get how-to help and instructions or specific features in</p>
-						<div class="helpButtonsWrap">
-							<!-- Should lead to another page, thus a tag is used -->
-							<a href="##" class="fc-light btn">help center</a>
-							<span class="fc-light ff-thin">or</span>
-							<a href="##" class="fc-light btn">support</a>
-						</div>
-					</div>
-				</div>
-			</div>
-				
-		</div>
-
-
-		<div class="rightBlock h-100scr fRight">
-			<div class="flex h-100 jc-center ai-center">
-				<div id="replace" class="contentWrap h-100">
-				
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-
-<template id="reset">
-	<div class="resetPasswordState">
-		<div class="backPW">
-			<button id="backPW">
-				<span class="fc-dark">🡠</span>
-			</button>
-		</div>
-		<p class="fs-title fc-light">Forgot password?</p>
-		<input type="text" class="w-100" placeholder="Enter your email">
-		<input type="submit" value="send me instructions" class="fc-light fs-button-bigger w-100">
-	</div>
-</template>
-
-<template id="access">
-	<div class="accessGrantedState">
-		<div class="welcome">
-			<span class="fs-title ff-thin fc-light">Hi, </span>
-			<span id="name" class="fc-light fs-title"></span>
-			<p class="fc-dark fs-text-smaller ff-thin">Please choose your project.</p>
-		</div>
-		<div class="projectList">
-			<ul>
-				<li class="fc-dark ff-medium">Project 1</li>
-				<li class="fc-dark ff-medium">Project 2</li>
-				<li class="fc-dark ff-medium">Project 3</li>
-				<li class="fc-dark ff-medium">Project 4</li>
-				<li class="fc-dark ff-medium">Project 5</li>
-				<li class="fc-dark ff-medium">Project 6</li>
-				<li class="fc-dark ff-medium">Project 7</li>
-				<li class="fc-dark ff-medium">Project 8</li>
-				<li class="fc-dark ff-medium">Project 9</li>
-				<li class="fc-dark ff-medium">Project 10</li>
-				<li class="fc-dark ff-medium">Project 11</li>
-				<li class="fc-dark ff-medium">Project 12</li>
-				<li class="fc-dark ff-medium">Project 13</li>
-				<li class="fc-dark ff-medium">Project 14</li>
-				<li class="fc-dark ff-medium">Project 15</li>
-			</ul>
-		</div>
-	</div>
-</template>
-
-<template id="login">
-	<div class="loginState">
-		<div class="loader w-100 h-100 dNone">
-			<div class="spinner"></div>
-		</div>
-		<div class="welcome">
-			<p class="fs-title fc-light">Welcome back</p>
-			<p class="fc-dark fs-text-smaller ff-thin">Sign in to continue to IO Technologies.</p>
-		</div>
-		
-		<div class="formWrap">
-			<form action="">
-				<div class="inputBlock">
-					<!-- value="1@iotechnologies.com" -->
-					<input type="email" name="email" class="w-100" placeholder="Your email"  autocomplete="off">
-					<div class="bubble fc-dark dNone">Oops! you entered an invalid email</div>
-				</div>
-		
-				<div class="inputBlock">
-					<input type="password" name="pw" class="w-100" placeholder="Password" autocomplete="off">
-				</div>
-				
-				<!-- should have used FA lib -->
-				<input type="submit" value="log in 🡢" class="fc-light fs-button-bigger w-100">
-			</form>
-		</div>
-		
-		<div class="forgotPW">
-			<span class="fc-dark">Forgot your password?</span>
-			<a id="resetPW" href="##">Reset</a>
-		</div>
-	</div>
-</template>
-	<script src="dev/js/main.js"></script>
-</body>
+  <app-root></app-root>
+<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
 </html>
