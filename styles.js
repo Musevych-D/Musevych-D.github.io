@@ -1,13 +1,13 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
-/***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./node_modules/sass-loader/lib/loader.js??ref--15-3!./src/styles.sass":
-/*!***************************************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./node_modules/postcss-loader/lib??embedded!./node_modules/sass-loader/lib/loader.js??ref--15-3!./src/styles.sass ***!
-  \***************************************************************************************************************************************************/
+/***/ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./src/styles.sass":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src??embedded!./node_modules/sass-loader/lib/loader.js??ref--14-3!./src/styles.sass ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "* {\n  outline: none;\n  border: none;\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  color: white;\n  font-family: Courier New, sans-serif;\n  font-weight: 300; }\n  * button,\n  * div.btn {\n    cursor: pointer; }\n  .flex {\n  display: flex; }\n  .fDir-row {\n  flex-direction: row; }\n  .fDir-col {\n  flex-direction: column; }\n  .fWrap-wrap {\n  flex-wrap: wrap; }\n  .fWrap-no {\n  flex-wrap: nowrap; }\n  .jc-center {\n  justify-content: center; }\n  .jc-sb {\n  justify-content: space-between; }\n  .jc-sa {\n  justify-content: space-around; }\n  .ai-center {\n  align-items: center; }\n  .flexCenter {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n  .posrel {\n  position: relative; }\n  .posabs {\n  position: absolute;\n  top: 0;\n  left: 0; }\n  .dHidden {\n  display: none; }\n  .w-100 {\n  width: 100%; }\n  .w-100scr {\n  width: 100vw; }\n  .h-100 {\n  height: 100%; }\n  .h-100scr {\n  height: 100vh; }\n"
+module.exports = [[module.i, "* {\n  outline: none;\n  border: none;\n  padding: 0px;\n  margin: 0px; }\n\nbody {\n  padding: 10px;\n  background-color: #1C1A27;\n  background-image: url(/assets/img/BG_pattern.jpg);\n  background-repeat: repeat; }\n\nh1, h2, h3, h4, h5, h6, span, p, a, li, label, input {\n  color: rgba(255, 255, 255, 0.5);\n  font-size: 16px;\n  line-height: 1.5; }\n\nimg {\n  width: 100%;\n  height: 100%; }\n\nbutton {\n  cursor: pointer;\n  color: aliceblue;\n  background-color: green;\n  transition: all .5s;\n  min-height: 30px;\n  min-width: 90px; }\n\nbutton:hover {\n    color: blue;\n    background-color: yellow; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9DOlxcVXNlcnNcXFVzZXJcXERlc2t0b3BcXHRlc3QtYXBwL3NyY1xcc3R5bGVzLnNhc3MiLCJzcmMvQzpcXFVzZXJzXFxVc2VyXFxEZXNrdG9wXFx0ZXN0LWFwcC9zcmNcXGFwcFxcc2Fzc1xcdmFycy5zYXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0UsY0FBYTtFQUNiLGFBQVk7RUFDWixhQUFZO0VBQ1osWUFBVyxFQUFHOztBQUVoQjtFQUNFLGNBQWE7RUFDYiwwQkNWNkI7RURXN0Isa0RBQWlEO0VBQ2pELDBCQUF5QixFQUFHOztBQUU5QjtFQUNFLGdDQUErQjtFQUMvQixnQkFBZTtFQUNmLGlCQUFnQixFQUFHOztBQUVyQjtFQUNFLFlBQVc7RUFDWCxhQUFZLEVBQUc7O0FBRWpCO0VBQ0UsZ0JBQWU7RUFDZixpQkFBZ0I7RUFDaEIsd0JBQXVCO0VBQ3ZCLG9CQUFtQjtFQUNuQixpQkFBZ0I7RUFDaEIsZ0JBQWUsRUFHZ0I7O0FBVGpDO0lBUUksWUFBVztJQUNYLHlCQUF3QixFQUFHIiwiZmlsZSI6InNyYy9zdHlsZXMuc2FzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgJ35zcmMvYXBwL3Nhc3MvdmFycyc7XG5cbioge1xuICBvdXRsaW5lOiBub25lO1xuICBib3JkZXI6IG5vbmU7XG4gIHBhZGRpbmc6IDBweDtcbiAgbWFyZ2luOiAwcHg7IH1cblxuYm9keSB7XG4gIHBhZGRpbmc6IDEwcHg7XG4gIGJhY2tncm91bmQtY29sb3I6ICRjb2xvci1ib2R5LWJhY2tncm91bmQ7XG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9CR19wYXR0ZXJuLmpwZyk7XG4gIGJhY2tncm91bmQtcmVwZWF0OiByZXBlYXQ7IH1cblxuaDEsIGgyLCBoMywgaDQsIGg1LCBoNiwgc3BhbiwgcCwgYSwgbGksIGxhYmVsLCBpbnB1dCB7XG4gIGNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNSk7XG4gIGZvbnQtc2l6ZTogMTZweDtcbiAgbGluZS1oZWlnaHQ6IDEuNTsgfVxuXG5pbWcge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxMDAlOyB9XG5cbmJ1dHRvbiB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgY29sb3I6IGFsaWNlYmx1ZTtcbiAgYmFja2dyb3VuZC1jb2xvcjogZ3JlZW47XG4gIHRyYW5zaXRpb246IGFsbCAuNXM7XG4gIG1pbi1oZWlnaHQ6IDMwcHg7XG4gIG1pbi13aWR0aDogOTBweDtcbiAgJjpob3ZlciB7XG4gICAgY29sb3I6IGJsdWU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogeWVsbG93OyB9IH1cblxuXG4iLCIkY29sb3ItYm9keS1iYWNrZ3JvdW5kOiAjMUMxQTI3O1xuIl19 */", '', '']]
 
 /***/ }),
 
@@ -43,14 +43,17 @@ var isOldIE = memoize(function () {
 	return window && document && document.all && !window.atob;
 });
 
-var getTarget = function (target) {
+var getTarget = function (target, parent) {
+  if (parent){
+    return parent.querySelector(target);
+  }
   return document.querySelector(target);
 };
 
 var getElement = (function (fn) {
 	var memo = {};
 
-	return function(target) {
+	return function(target, parent) {
                 // If passing function in options, then use it for resolve "head" element.
                 // Useful for Shadow Root style i.e
                 // {
@@ -60,7 +63,7 @@ var getElement = (function (fn) {
                         return target();
                 }
                 if (typeof memo[target] === "undefined") {
-			var styleTarget = getTarget.call(this, target);
+			var styleTarget = getTarget.call(this, target, parent);
 			// Special case to return head of iframe instead of iframe itself
 			if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
 				try {
@@ -201,7 +204,7 @@ function insertStyleElement (options, style) {
 	} else if (options.insertAt === "bottom") {
 		target.appendChild(style);
 	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
-		var nextSibling = getElement(options.insertInto + " " + options.insertAt.before);
+		var nextSibling = getElement(options.insertAt.before, target);
 		target.insertBefore(style, nextSibling);
 	} else {
 		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
@@ -223,6 +226,13 @@ function createStyleElement (options) {
 
 	if(options.attrs.type === undefined) {
 		options.attrs.type = "text/css";
+	}
+
+	if(options.attrs.nonce === undefined) {
+		var nonce = getNonce();
+		if (nonce) {
+			options.attrs.nonce = nonce;
+		}
 	}
 
 	addAttrs(style, options.attrs);
@@ -249,6 +259,12 @@ function addAttrs (el, attrs) {
 	Object.keys(attrs).forEach(function (key) {
 		el.setAttribute(key, attrs[key]);
 	});
+}
+
+function getNonce() {
+	if (false) {}
+
+	return __webpack_require__.nc;
 }
 
 function addStyle (obj, options) {
@@ -510,7 +526,7 @@ module.exports = function (css) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../node_modules/raw-loader!../node_modules/postcss-loader/lib??embedded!../node_modules/sass-loader/lib/loader.js??ref--15-3!./styles.sass */ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./node_modules/sass-loader/lib/loader.js??ref--15-3!./src/styles.sass");
+var content = __webpack_require__(/*! !../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../node_modules/postcss-loader/src??embedded!../node_modules/sass-loader/lib/loader.js??ref--14-3!./styles.sass */ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./src/styles.sass");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -539,7 +555,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\User\Desktop\CV\testTasks\Spribe\src\styles.sass */"./src/styles.sass");
+module.exports = __webpack_require__(/*! C:\Users\User\Desktop\test-app\src\styles.sass */"./src/styles.sass");
 
 
 /***/ })
